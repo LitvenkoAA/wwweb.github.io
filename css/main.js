@@ -20,3 +20,14 @@ window.addEventListener("scroll", function() {
         header.classList.remove("header_active");
     }
     });
+function validation(form) {
+
+    let result = true;
+    return result
+    }
+document.getElementById('add-form').addEventListener('submit', function(event) {
+event.preventDefault()
+if (validation(this) == true) {
+alert('Форма проверена успешно!')
+}
+})
