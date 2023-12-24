@@ -1,7 +1,9 @@
-{
-	"folders": [
-		{
-			"path": "."
-		}
-	]
+<?php
+if ($_SERVER["REQUEST_METHOD"]=="POST") {
+$email = $_POST["email"];
+$password = $_POST["password"];
+echo "Your email: $email <br>";
+echo "Your password: $password <br>";
+echo "Logged in successfuly!";
 }
+?>
