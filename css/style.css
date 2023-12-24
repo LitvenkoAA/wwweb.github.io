@@ -662,77 +662,43 @@ width: 100%;
 /*Footer style kon*/
 /*Form style nach*/
 
-.container{
-  max-width: 700px;
-  padding: 0 5px;
-  margin: 30px auto;
-  z-index: 1;
-}
-
-.wrapper form{
-  padding: 25px 25px 25px 25px;
-}
-.wrapper form .row{
-  height: 4em;
-  margin-bottom: 15px;
-  position: relative;
-}
-.wrapper form .row input{
-  height: 100%;
-  width: 92.6%;
-  outline: none;
-  padding-left: 30px;
-  border-radius: 5px;
-  border: 1px solid lightgrey;
-  font-size: 24px;
-  transition: all 0.3s ease;
-  
-}
-form .row input:focus{
-  border-color: rgb(191, 255, 0);
-  box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
-  top: -7px;
-  left: 3px;
-  z-index: 10;
-  font-size: 20px;
-  font-weight: 300px;
-}
-form .row input::placeholder{
-  color: #999;
-}
-.wrapper form .row i{
-  position: absolute;
-  background: #006DFE;
-  border: 1px solid #cefd3b;
-  border-radius: 5px 0 0 5px;
+.search-form__info1{
   display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.wrapper form .button input{
-  color: black;
-  height: 100px;
-  width: 100%;
-  outline: none;
-  border-radius: 5px;
-  padding-left: 0px;
-  margin-top: 0.5em;
-  background: #006DFE;
-  border: 1px solid #cefd3b;
-  cursor: pointer;
-  color: #FFF;
-  font-family: Roboto;
-  font-size: 2em;
-  font-style: normal;
-
-}
-form .button input:hover{
-  background: #006DFE;
-  border: 1px solid #f6ff00;
-}
-.form:hover,.search-form__submit:focus,.search-form__submit:active{
-  background: #0e66da;
+  flex-wrap: wrap;
 }
 
+.search-form__field1{
+  width: 120px;
+  background-color: transparent;
+  background-size: 20px;
+  border: 0;
+  border-bottom: 2px solid #000;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 5px;
+}
+
+.search-form__field1::placeholder{
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+}
+.search-form__submit1{
+  padding: 11px 20px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+  background: #1B7DFF;
+  border: 0;
+  margin-left: 20px;
+  border-radius: 100px; /*закругление углов рамки*/
+  
+
+}
+.search-form__submit1:hover, .search-form__submit1:focus, .search-form__submit1:active{
+  background: #006DFE;
+}
 
 /*Form style kon*/
