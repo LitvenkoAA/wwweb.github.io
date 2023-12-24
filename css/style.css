@@ -662,6 +662,21 @@ width: 100%;
 /*Footer style kon*/
 /*Form style nach*/
 
+.container{
+  max-width: 800px;
+  padding: 0 5px;
+  margin: 30px auto;
+  z-index: 1;
+}
+form {
+  text-align: center; /*выровнен по центру*/
+  margin: 20px auto; /*внешний отступ*/
+  font-family: 'Open Sans'; /*придает шрифт*/
+  font-weight: 300; /*толщина шрифта*/
+  font-size: 15px; /*придает размер шрифта */
+  }
+
+
 .search-form__info1{
   display: flex;
   flex-wrap: wrap;
