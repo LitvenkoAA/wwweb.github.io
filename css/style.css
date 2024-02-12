@@ -694,6 +694,12 @@ form {
   padding-bottom: 5px;
 }
 
+
+.search-form__field1:invalid{
+  background: red;
+}
+
+
 .search-form__field1::placeholder{
   font-size: 18px;
   font-weight: 500;
