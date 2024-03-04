@@ -20,6 +20,8 @@ window.addEventListener("scroll", function() {
         header.classList.remove("header_active");
     }
     });
+
+
 function validation(form) {
 
     let result = true;
